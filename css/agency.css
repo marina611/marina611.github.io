@@ -271,7 +271,7 @@ header .video-wrap video, header .video-wrap img {
 
 @media (min-width: 768px) {
   header .video-wrap {
-    height: 600px;
+    height: 528px;
   }
   header .video-wrap video, header .video-wrap img {
     height: auto;
