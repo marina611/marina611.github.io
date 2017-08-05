@@ -272,10 +272,16 @@ header .video-wrap video {
 
 @media (min-width: 768px) {
   header::after {
-    height: 500px;
+    height: 600px;
+  }
+  header .video-wrap {
+    height: 600px;
   }
   header .video-wrap video {
     height: 100%;
+  }
+  header .intro-text {
+    padding-top: 200px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;

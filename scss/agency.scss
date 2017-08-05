@@ -224,14 +224,16 @@ header {
 @media(min-width:768px) {
     header {
 		&::after {
-				height: 500px;
+				height: 600px;
 			}
 		.video-wrap {
+			height: 600px;
 			video {
 				height: 100%;
 			}
 		}
         .intro-text {
+			padding-top: 200px;
             .intro-lead-in {
                 @include serif-font;
                 font-style: italic;
