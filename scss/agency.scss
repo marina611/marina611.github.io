@@ -173,7 +173,7 @@ header {
 		background-color: rgba(37, 46, 51, 0.8);
 		content: "";
 		width: 100%;
-		height: 400px;
+		height: 100%;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -207,17 +207,14 @@ header {
     }
 	.video-wrap {
 		position: relative;
-		height: 400px;
+		height: 350px;
 		overflow: hidden;
 		margin-top: 53px;
 		video, img {
-			position: absolute;
-			top: 0;
-			right: 0;
-			left: 0;
-			bottom: 0;
-			width: 100vw; 
-			height: auto;
+			width: auto; /* Image width adjust to height to remain proportional */
+  			max-width: 100%; /* Image doesn't exceed parent element's width */
+  			height: 100%;
+  			//margin: 2rem auto; 
 		}
 	}
 }
@@ -225,12 +222,12 @@ header {
 @media(min-width:768px) {
     header {
 		&::after {
-				height: 582px;
 			}
 		.video-wrap {
 			height: 600px;
 			video, img {
-				width: 100%;
+				height: auto;
+				min-height: 600px;
 			}
 		}
         .intro-text {

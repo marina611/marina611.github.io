@@ -223,7 +223,7 @@ header::after {
   background-color: rgba(37, 46, 51, 0.8);
   content: "";
   width: 100%;
-  height: 400px;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -257,29 +257,25 @@ header .intro-text .intro-heading {
 }
 header .video-wrap {
   position: relative;
-  height: 400px;
+  height: 350px;
   overflow: hidden;
   margin-top: 53px;
 }
 header .video-wrap video, header .video-wrap img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  height: auto;
+  width: auto;
+  /* Image width adjust to height to remain proportional */
+  max-width: 100%;
+  /* Image doesn't exceed parent element's width */
+  height: 100%;
 }
 
 @media (min-width: 768px) {
-  header::after {
-    height: 582px;
-  }
   header .video-wrap {
     height: 600px;
   }
   header .video-wrap video, header .video-wrap img {
-    width: 100%;
+    height: auto;
+    min-height: 600px;
   }
   header .intro-text {
     padding-top: 200px;
