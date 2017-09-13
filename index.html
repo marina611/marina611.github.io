@@ -19,7 +19,7 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
 <!-- Theme CSS -->
-<link href="css/agency.css" rel="stylesheet">
+<link href="dist/css/style.css" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +47,6 @@
 				<li> <a class="page-scroll" href="#services">Services</a> </li>
 				<li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
 				<li> <a class="page-scroll" href="#about">About</a> </li>
-				<li> <a class="page-scroll" href="#team">Team</a> </li>
 				<li> <a class="page-scroll" href="#contact">Contact</a> </li>
 			</ul>
 		</div>
@@ -66,7 +65,7 @@
 			<!-- /intro-text --> 
 		</div>
 		<div class="video-wrap">
-			<img src="video/movie.gif" alt="">
+			<img src="img/movie.gif" alt="">
 			<!-- /video-wrap --> 
 		</div>
 	</div>
@@ -78,21 +77,21 @@
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<h2 class="section-heading">Services</h2>
-				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+				<h3 class="section-subheading text-muted">主なサービス内容</h3>
 			</div>
 		</div>
 		<div class="row text-center">
-			<div class="col-md-4"> <span class="fa-stack fa-4x"> <i class="fa fa-circle fa-stack-2x text-primary"></i> <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i> </span>
-				<h4 class="service-heading">E-Commerce</h4>
-				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-			</div>
 			<div class="col-md-4"> <span class="fa-stack fa-4x"> <i class="fa fa-circle fa-stack-2x text-primary"></i> <i class="fa fa-laptop fa-stack-1x fa-inverse"></i> </span>
-				<h4 class="service-heading">Responsive Design</h4>
-				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+				<h4 class="service-heading">Webデザイン</h4>
+				<p class="text-muted">Webサイトのデザインから、コーディングまでを行います。<br>（PC/スマートフォン両対応）</p>
 			</div>
-			<div class="col-md-4"> <span class="fa-stack fa-4x"> <i class="fa fa-circle fa-stack-2x text-primary"></i> <i class="fa fa-lock fa-stack-1x fa-inverse"></i> </span>
-				<h4 class="service-heading">Web Security</h4>
-				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+			<div class="col-md-4"> <span class="fa-stack fa-4x"> <i class="fa fa-circle fa-stack-2x text-primary"></i> <i class="fa fa-video-camera fa-stack-1x fa-inverse"></i> </span>
+				<h4 class="service-heading">アニメーション動画</h4>
+				<p class="text-muted">絵コンテから、動画作成までを行います。動画で使用する絵は、手書き、またはAdobe Illustratorで作成いたします。</p>
+			</div>
+			<div class="col-md-4"> <span class="fa-stack fa-4x"> <i class="fa fa-circle fa-stack-2x text-primary"></i> <i class="fa fa-pencil fa-stack-1x fa-inverse"></i> </span>
+				<h4 class="service-heading">広告用コミック</h4>
+				<p class="text-muted">商品・サービス紹介を、コミカルなテイストで漫画作成いたします。</p>
 			</div>
 		</div>
 	</div>
@@ -104,68 +103,38 @@
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<h2 class="section-heading">Portfolio</h2>
-				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+				<h3 class="section-subheading text-muted">今まで作った作品</h3>
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-4 col-sm-6 portfolio-item"> <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+				<div class="portfolio-hover">
+					<div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
+				</div>
+				<img src="img/portfolio/img_poster.jpg" class="img-responsive" alt=""> </a>
+				<div class="portfolio-caption">
+					<h4>ウェルカムボード</h4>
+					<p class="text-muted">2017</p>
+				</div>
+			</div>
 			<div class="col-md-4 col-sm-6 portfolio-item"> <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
 				<div class="portfolio-hover">
 					<div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
 				</div>
-				<img src="img/portfolio/img_comic01.jpg" class="img-responsive" alt=""> </a>
+				<img src="img/portfolio/img_comics.png" class="img-responsive" alt=""> </a>
 				<div class="portfolio-caption">
-					<h4>学校紹介マンガ</h4>
-					<p class="text-muted">Illustration</p>
+					<h4>専門学校 紹介マンガ</h4>
+					<p class="text-muted">2013</p>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 portfolio-item"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
 				<div class="portfolio-hover">
 					<div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
 				</div>
-				<img src="img/portfolio/img_comic02.jpg" class="img-responsive" alt=""> </a>
+				<img src="img/portfolio/img_storyboard.png" class="img-responsive" alt=""> </a>
 				<div class="portfolio-caption">
 					<h4>絵コンテ</h4>
-					<p class="text-muted">Illustration</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 portfolio-item"> <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-				<div class="portfolio-hover">
-					<div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-				</div>
-				<img src="img/portfolio/treehouse.png" class="img-responsive" alt=""> </a>
-				<div class="portfolio-caption">
-					<h4>Treehouse</h4>
-					<p class="text-muted">Website Design</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 portfolio-item"> <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-				<div class="portfolio-hover">
-					<div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-				</div>
-				<img src="img/portfolio/golden.png" class="img-responsive" alt=""> </a>
-				<div class="portfolio-caption">
-					<h4>Golden</h4>
-					<p class="text-muted">Website Design</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 portfolio-item"> <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-				<div class="portfolio-hover">
-					<div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-				</div>
-				<img src="img/portfolio/escape.png" class="img-responsive" alt=""> </a>
-				<div class="portfolio-caption">
-					<h4>Escape</h4>
-					<p class="text-muted">Website Design</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 portfolio-item"> <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-				<div class="portfolio-hover">
-					<div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-				</div>
-				<img src="img/portfolio/dreams.png" class="img-responsive" alt=""> </a>
-				<div class="portfolio-caption">
-					<h4>Dreams</h4>
-					<p class="text-muted">Website Design</p>
+					<p class="text-muted">2013</p>
 				</div>
 			</div>
 		</div>
@@ -181,6 +150,18 @@
 				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="team-member"> <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+				</div>
+			</div>
+			<div class="col-lg-8 col-lg-offset-2">
+				<h4>Marina Yamamoto</h4>
+				<p class="text-muted">Webデザイナー、アニメーター、イラストレーター</p>
+				<p class="large text-muted">福岡県出身。<br>米国モンタナ州立大学で美術を専攻、卒業。ニューヨークで、日系の出版会社にて３ヶ月間インターンシップ。<br>帰国後、福岡デザイン専門学校でWeb、CG/アニメーションを専攻、卒業。<br><br>Web会社にて、3年間Webデザイナーとして就職。</p>
+			</div>
+		</div>
+		<!--
 		<div class="row">
 			<div class="col-lg-12">
 				<ul class="timeline">
@@ -242,10 +223,11 @@
 				</ul>
 			</div>
 		</div>
+		-->
 	</div>
 </section>
 
-<!-- Team Section -->
+<!-- Team Section
 <section id="team" class="bg-light-gray">
 	<div class="container">
 		<div class="row">
@@ -254,50 +236,11 @@
 				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="team-member"> <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-					<h4>Kay Garland</h4>
-					<p class="text-muted">Lead Designer</p>
-					<ul class="list-inline social-buttons">
-						<li><a href="#"><i class="fa fa-twitter"></i></a> </li>
-						<li><a href="#"><i class="fa fa-facebook"></i></a> </li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="team-member"> <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-					<h4>Larry Parker</h4>
-					<p class="text-muted">Lead Marketer</p>
-					<ul class="list-inline social-buttons">
-						<li><a href="#"><i class="fa fa-twitter"></i></a> </li>
-						<li><a href="#"><i class="fa fa-facebook"></i></a> </li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="team-member"> <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-					<h4>Diana Pertersen</h4>
-					<p class="text-muted">Lead Developer</p>
-					<ul class="list-inline social-buttons">
-						<li><a href="#"><i class="fa fa-twitter"></i></a> </li>
-						<li><a href="#"><i class="fa fa-facebook"></i></a> </li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 text-center">
-				<p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-			</div>
-		</div>
 	</div>
 </section>
+ -->
 
-<!-- Clients Aside -->
+<!-- Clients Aside 
 <aside class="clients">
 	<div class="container">
 		<div class="row">
@@ -308,14 +251,15 @@
 		</div>
 	</div>
 </aside>
+-->
 
 <!-- Contact Section -->
 <section id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2 class="section-heading">Contact Me</h2>
-				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+				<h2 class="section-heading">Contact</h2>
+				<h3 class="section-subheading text-muted">お仕事のご依頼・お問い合わせは、こちらからお願いします。<br><small>※すべての項目が、入力必須です。</small></h3>
 			</div>
 		</div>
 		<div class="row">
@@ -324,28 +268,28 @@
 					<div class="row">
 						<div class="col-md-6">
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+								<input type="text" class="form-control" placeholder="氏名 *" id="name" required data-validation-required-message="お名前をご入力ください。">
 								<p class="help-block text-danger"></p>
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+								<input type="email" class="form-control" placeholder="Emailアドレス *" id="email" required data-validation-required-message="Emailアドレスをご入力ください。">
 								<p class="help-block text-danger"></p>
 							</div>
 							<div class="form-group">
-								<input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+								<input type="tel" class="form-control" placeholder="電話番号 *" id="phone" required data-validation-required-message="電話番号をご入力ください。">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
-								<textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+								<textarea class="form-control" placeholder="お問い合わせ内容 *" id="message" required data-validation-required-message="お問い合わせ内容をご入力ください。"></textarea>
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-lg-12 text-center">
 							<div id="success"></div>
-							<button type="submit" class="btn btn-xl">Send Message</button>
+							<button type="submit" class="btn btn-xl">以上の内容で送信する</button>
 						</div>
 					</div>
 				</form>
@@ -356,14 +300,16 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4"> <span class="copyright">Copyright &copy; Your Website 2016</span> </div>
 			<div class="col-md-4">
+				<!--
 				<ul class="list-inline social-buttons">
 					<li><a href="#"><i class="fa fa-twitter"></i></a> </li>
 					<li><a href="#"><i class="fa fa-facebook"></i></a> </li>
 					<li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
 				</ul>
+				-->
 			</div>
+			<div class="col-md-4"> <span class="copyright">Copyright &copy; Marina Yamamoto 2017</span> </div>
 			<div class="col-md-4">
 				<ul class="list-inline quicklinks">
 					<li><a href="#">Privacy Policy</a> </li>

@@ -1,0 +1,41 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "agency.scss";
+
+section h3.section-subheading {
+	font-style: normal;
+}
+
+h3 {
+    margin-top: 15px;
+	color: blue;
+}
+
+section {
+    padding: 70px 0;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 100px 0;
+  }
+}
+
+section h3.section-subheading {
+    margin-bottom: 50px;
+}
+
+section#contact {
+	::-webkit-input-placeholder {
+       color: #C9C9C9;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+       color: #C9C9C9;
+    }
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: #C9C9C9;
+    }
+    :-ms-input-placeholder {  
+       color: #C9C9C9;
+    }
+}
