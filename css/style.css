@@ -681,6 +681,9 @@ section#contact ::-moz-placeholder {
 section#contact :-ms-input-placeholder {
   color: #C9C9C9; }
 
+#about .txt_name {
+  font-size: 24px; }
+
 #portfolioModal_kuma_anime .kuma-san {
   width: 280px;
   height: 280px;
