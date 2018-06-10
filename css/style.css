@@ -698,6 +698,9 @@ section#contact :-ms-input-placeholder {
   display: block;
   margin-top: 5px; }
 
+.portfolio-modal .modal-content p.txt_description {
+  margin-bottom: 10px; }
+
 .portfolio-modal .ytube_video {
   position: relative;
   width: 100%;
